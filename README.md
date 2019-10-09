@@ -1,6 +1,6 @@
-# elm-tutorial
+# elm-capacitor
 
-Together we build up an elm project from scratch.
+Demo showing how Elm can be used for native apps using capacitor.
 
 ### Get Started
 
