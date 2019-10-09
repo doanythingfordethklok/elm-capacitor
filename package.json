@@ -1,0 +1,24 @@
+{
+  "author": "Tommy Messbauer",
+  "description": "Demo project embedding elm in a native app",
+  "devDependencies": {
+    "elm-hot": "^1.1.2",
+    "node-elm-compiler": "^5.0.4",
+    "parcel-bundler": "^1.12.3"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "name": "elm-capacitor",
+  "repository": "git@github.com:doanythingfordethklok/elm-capacitor.git",
+  "scripts": {
+    "build": "rm -rf dist .cache && parcel build ./src/index.html --public-url './'",
+    "dev": "parcel serve -p 8085 ./src/index.html"
+  },
+  "version": "0.0.0",
+  "dependencies": {
+    "@capacitor/android": "^1.2.1",
+    "@capacitor/cli": "^1.2.1",
+    "@capacitor/core": "^1.2.1",
+    "@capacitor/ios": "^1.2.1"
+  }
+}

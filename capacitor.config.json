@@ -1,0 +1,7 @@
+{
+  "appId": "doanythingfordethklok.elm-capacitor",
+  "appName": "Elm-Capacitor",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "dist"
+}
